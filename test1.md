@@ -1,14 +1,1 @@
-Repo name| URL| # of stars  
----|---|---  
-labstack/echo| https://api.github.com/repos/labstack/echo| 219  
-mholt/caddy| https://api.github.com/repos/mholt/caddy| 106  
-junegunn/fzf| https://api.github.com/repos/junegunn/fzf| 99  
-kubernetes/kubernetes| https://api.github.com/repos/kubernetes/kubernetes| 99  
-tsenart/vegeta| https://api.github.com/repos/tsenart/vegeta| 91  
-prometheus/prometheus| https://api.github.com/repos/prometheus/prometheus| 83  
-mmcdole/gofeed| https://api.github.com/repos/mmcdole/gofeed| 77  
-gin-gonic/gin| https://api.github.com/repos/gin-gonic/gin| 67  
-bayandin/awesome-awesomeness| https://api.github.com/repos/bayandin/awesome-
-awesomeness| 61
-
-
+<table><tr><td>Repo name</td><td>URL</td><td># of stars</td></tr><tr><td>labstack/echo</td><td>https://api.github.com/repos/labstack/echo</td><td>219</td></tr><tr><td>mholt/caddy</td><td>https://api.github.com/repos/mholt/caddy</td><td>106</td></tr><tr><td>junegunn/fzf</td><td>https://api.github.com/repos/junegunn/fzf</td><td>99</td></tr><tr><td>kubernetes/kubernetes</td><td>https://api.github.com/repos/kubernetes/kubernetes</td><td>99</td></tr><tr><td>tsenart/vegeta</td><td>https://api.github.com/repos/tsenart/vegeta</td><td>91</td></tr><tr><td>prometheus/prometheus</td><td>https://api.github.com/repos/prometheus/prometheus</td><td>83</td></tr><tr><td>mmcdole/gofeed</td><td>https://api.github.com/repos/mmcdole/gofeed</td><td>77</td></tr><tr><td>gin-gonic/gin</td><td>https://api.github.com/repos/gin-gonic/gin</td><td>67</td></tr><tr><td>bayandin/awesome-awesomeness</td><td>https://api.github.com/repos/bayandin/awesome-awesomeness</td><td>61</td></tr></table>
