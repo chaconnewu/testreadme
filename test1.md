@@ -1,7 +1,9 @@
 Repo name| ↑stars  
 ---|---  
-[echo](https://github.com/h/o)| 219  
-[caddy](https://github.com/d/y)| 106  
-[fzf](https://github.com/z/f)| 99  
-[kubernetes](https://github.com/e/s)| 99  
-[vegeta](https://github.com/t/a)| 91
+[echo](https://github.com/labstack/echo)| 219  
+[caddy](https://github.com/mholt/caddy)| 106  
+[fzf](https://github.com/junegunn/fzf)| 99  
+[kubernetes](https://github.com/kubernetes/kubernetes)| 99  
+[vegeta](https://github.com/tsenart/vegeta)| 91
+
+
