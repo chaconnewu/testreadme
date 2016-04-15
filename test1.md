@@ -6,7 +6,7 @@
 Most starred repos in the past week
 -----------------------------------
 
-| Repo name                                              | ↑ Stars | Description                                                                                       |
+| Repo name                                              | ↑Stars | Description                                                                                       |
 |--------------------------------------------------------|---------|---------------------------------------------------------------------------------------------------|
 | [echo](https://github.com/labstack/echo)               | 219     | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest. |
 | [caddy](https://github.com/mholt/caddy)                | 106     | Fast, cross-platform HTTP/2 web server with automatic HTTPS                                       |
@@ -28,7 +28,7 @@ Most active repos in the past week
 Most starred repos in the past month
 ------------------------------------
 
-| Repo name                                              | ↑ Stars | Description                                                                                       |
+| Repo name                                              | ↑Stars | Description                                                                                       |
 |--------------------------------------------------------|---------|---------------------------------------------------------------------------------------------------|
 | [echo](https://github.com/labstack/echo)               | 1016    | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest. |
 | [micro](https://github.com/micro/micro)                | 657     | A microservice toolkit                                                                            |
