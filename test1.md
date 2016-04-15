@@ -1,6 +1,6 @@
 ## Most starred repos in the past week
 
-Repo name| ↑ Stars | Description  
+Repo name| â†‘ Stars | Description  
 ---|---|---  
 [echo](https://github.com/labstack/echo)| 219| Echo is a fast and unfancy HTTP
 server framework for Go (Golang). Up to 10x faster than the rest.  
@@ -15,7 +15,7 @@ library. It's over 9000!
   
 ## Most active repos in the past week
 
-Repo name| ↑ Pushes | Description  
+Repo name| â†‘ Pushes | Description  
 ---|---|---  
 [kubernetes](https://github.com/kubernetes/kubernetes)| 77| Container Cluster
 Manager from Google  
@@ -29,7 +29,7 @@ Survivable, Strongly-Consistent SQL Database
   
 ## Most starred repos in the past month
 
-Repo name| ↑ Stars | Description  
+Repo name| â†‘ Stars | Description  
 ---|---|---  
 [echo](https://github.com/labstack/echo)| 1016| Echo is a fast and unfancy
 HTTP server framework for Go (Golang). Up to 10x faster than the rest.  
@@ -43,7 +43,7 @@ Latency Graph Database
   
 ## Most active repos in the past month
 
-Repo name| ↑ Pushes | Description  
+Repo name| â†‘ Pushes | Description  
 ---|---|---  
 [cockroach](https://github.com/cockroachdb/cockroach)| 420| A Scalable,
 Survivable, Strongly-Consistent SQL Database  
@@ -55,5 +55,4 @@ database compatible with MySQL protocol
 store for the most critical data of a distributed system  
 [gofeed](https://github.com/mmcdole/gofeed)| 161| Parse RSS and Atom feeds in
 Go
-
 
