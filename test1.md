@@ -2,7 +2,7 @@
 -   [Most active repos in the past week (from 2016-04-08 to 2016-04-15)](#most-active-repos-in-the-past-week-from-2016-04-08-to-2016-04-15)
 -   [Most starred repos in the past month (from 2016-03-16 to 2016-04-15)](#most-starred-repos-in-the-past-month-from-2016-03-16-to-2016-04-15)
 -   [Most active repos in the past month (from 2016-03-16 to 2016-04-15)](#most-active-repos-in-the-past-month-from-2016-03-16-to-2016-04-15)
--   [Inactive repos in 2016 (some of them might be due to repo name change)](#inactive-repos-in-2016-some-of-them-might-be-due-to-repo-name-change)
+-   [Inactive repos in 2016 (no recorded events and last updated was before 2016)](#inactive-repos-in-2016-no-recorded-events-and-last-updated-was-before-2016)
 -   [Inactive repos that has no push event in 2016](#inactive-repos-that-has-no-push-event-in-2016)
 
 Most starred repos in the past week (from 2016-04-08 to 2016-04-15)
@@ -69,8 +69,8 @@ Most active repos in the past month (from 2016-03-16 to 2016-04-15)
 | [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) | 89      | 3235  | Google Go language IDE built using the IntelliJ Platform                                                    |
 | [caddy](https://github.com/mholt/caddy)                                          | 68      | 5501  | Fast, cross-platform HTTP/2 web server with automatic HTTPS                                                 |
 
-Inactive repos in 2016 (some of them might be due to repo name change)
-----------------------------------------------------------------------
+Inactive repos in 2016 (no recorded events and last updated was before 2016)
+----------------------------------------------------------------------------
 
 | Repo name                                                                      | ★   | Description                                                                               |
 |--------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------|
