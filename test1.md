@@ -1,1 +1,7 @@
-<table><tr><td>Repo name</td><td>URL</td><td># of stars</td></tr><tr><td>labstack/echo</td><td>https://api.github.com/repos/labstack/echo</td><td>219</td></tr><tr><td>mholt/caddy</td><td>https://api.github.com/repos/mholt/caddy</td><td>106</td></tr><tr><td>junegunn/fzf</td><td>https://api.github.com/repos/junegunn/fzf</td><td>99</td></tr><tr><td>kubernetes/kubernetes</td><td>https://api.github.com/repos/kubernetes/kubernetes</td><td>99</td></tr><tr><td>tsenart/vegeta</td><td>https://api.github.com/repos/tsenart/vegeta</td><td>91</td></tr><tr><td>prometheus/prometheus</td><td>https://api.github.com/repos/prometheus/prometheus</td><td>83</td></tr><tr><td>mmcdole/gofeed</td><td>https://api.github.com/repos/mmcdole/gofeed</td><td>77</td></tr><tr><td>gin-gonic/gin</td><td>https://api.github.com/repos/gin-gonic/gin</td><td>67</td></tr><tr><td>bayandin/awesome-awesomeness</td><td>https://api.github.com/repos/bayandin/awesome-awesomeness</td><td>61</td></tr></table>
+Repo name| ↑stars  
+---|---  
+[echo](https://github.com/h/o)| 219  
+[caddy](https://github.com/d/y)| 106  
+[fzf](https://github.com/z/f)| 99  
+[kubernetes](https://github.com/e/s)| 99  
+[vegeta](https://github.com/t/a)| 91
