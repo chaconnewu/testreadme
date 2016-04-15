@@ -1,3 +1,8 @@
+-   [Most starred repos in the past week](#most-starred-repos-in-the-past-week)
+-   [Most active repos in the past week](#most-active-repos-in-the-past-week)
+-   [Most starred repos in the past month](#most-starred-repos-in-the-past-month)
+-   [Most active repos in the past month](#most-active-repos-in-the-past-month)
+
 Most starred repos in the past week
 -----------------------------------
 
