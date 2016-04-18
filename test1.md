@@ -1,339 +1,2699 @@
--   [Most starred repos in the past week (from 2016-04-10 to 2016-04-17)](#most-starred-repos-in-the-past-week-from-2016-04-10-to-2016-04-17)
--   [Most active repos in the past week (from 2016-04-10 to 2016-04-17)](#most-active-repos-in-the-past-week-from-2016-04-10-to-2016-04-17)
--   [Most starred repos in the past month (from 2016-03-18 to 2016-04-17)](#most-starred-repos-in-the-past-month-from-2016-03-18-to-2016-04-17)
--   [Most active repos in the past month (from 2016-03-18 to 2016-04-17)](#most-active-repos-in-the-past-month-from-2016-03-18-to-2016-04-17)
--   [Inactive repos in 2016 (no recorded events and last updated was before 2016) (22 repos)](#inactive-repos-in-2016-no-recorded-events-and-last-updated-was-before-2016-22-repos)
--   [Inactive repos that has no push event in 2016 (235 repos)](#inactive-repos-that-has-no-push-event-in-2016-235-repos)
-
-Most starred repos in the past week (from 2016-04-10 to 2016-04-17)
--------------------------------------------------------------------
-
-| Repo name                                                                | ↑★  | ★     | Description                                                                                                                                                                                        |
-|--------------------------------------------------------------------------|-----|-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [echo](https://github.com/labstack/echo)                                 | 103 | 4110  | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest.                                                                                                  |
-| [fzf](https://github.com/junegunn/fzf)                                   | 86  | 4666  | :cherry\_blossom: A command-line fuzzy finder written in Go                                                                                                                                        |
-| [gofeed](https://github.com/mmcdole/gofeed)                              | 77  | 368   | Parse RSS and Atom feeds in Go                                                                                                                                                                     |
-| [caddy](https://github.com/mholt/caddy)                                  | 76  | 5523  | Fast, cross-platform HTTP/2 web server with automatic HTTPS                                                                                                                                        |
-| [kubernetes](https://github.com/kubernetes/kubernetes)                   | 68  | 13903 | Container Cluster Manager from Google                                                                                                                                                              |
-| [prometheus](https://github.com/prometheus/prometheus)                   | 65  | 4379  | The Prometheus monitoring system and time series database.                                                                                                                                         |
-| [vegeta](https://github.com/tsenart/vegeta)                              | 59  | 3699  | HTTP load testing tool and library. It's over 9000!                                                                                                                                                |
-| [awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | 50  | 5339  | A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python                                                                                           |
-| [gin](https://github.com/gin-gonic/gin)                                  | 47  | 6290  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
-| [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)   | 40  | 15992 | A curated list of awesome awesomeness                                                                                                                                                              |
-
-Most active repos in the past week (from 2016-04-10 to 2016-04-17)
-------------------------------------------------------------------
-
-| Repo name                                              | ↑Pushes | ★     | Description                                                                                       |
-|--------------------------------------------------------|---------|-------|---------------------------------------------------------------------------------------------------|
-| [cockroach](https://github.com/cockroachdb/cockroach)  | 46      | 6696  | A Scalable, Survivable, Strongly-Consistent SQL Database                                          |
-| [kubernetes](https://github.com/kubernetes/kubernetes) | 45      | 13903 | Container Cluster Manager from Google                                                             |
-| [etcd](https://github.com/coreos/etcd)                 | 41      | 9298  | Distributed reliable key-value store for the most critical data of a distributed system           |
-| [tidb](https://github.com/pingcap/tidb)                | 40      | 3797  | TiDB is a distributed NewSQL database compatible with MySQL protocol                              |
-| [golf](https://github.com/dinever/golf)                | 34      | 109   | The Golf web framework. :golf:                                                                    |
-| [rqlite](https://github.com/otoolep/rqlite)            | 28      | 1267  | Replicating SQLite using the Raft consensus protocol                                              |
-| [minio](https://github.com/minio/minio)                | 25      | 1072  | Minio is an object storage server compatible with Amazon S3 and licensed under Apache 2.0 License |
-| [vim-go](https://github.com/fatih/vim-go)              | 20      | 4600  | Go development plugin for Vim                                                                     |
-| [delve](https://github.com/derekparker/delve)          | 18      | 3484  | Delve is a debugger for the Go programming language.                                              |
-| [jwt-go](https://github.com/dgrijalva/jwt-go)          | 16      | 1084  | Golang implementation of JSON Web Tokens (JWT)                                                    |
-
-Most starred repos in the past month (from 2016-03-18 to 2016-04-17)
---------------------------------------------------------------------
-
-| Repo name                                              | ↑★   | ★     | Description                                                                                                                                                                                        |
-|--------------------------------------------------------|------|-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [echo](https://github.com/labstack/echo)               | 1003 | 4110  | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest.                                                                                                  |
-| [micro](https://github.com/micro/micro)                | 650  | 1722  | A microservice toolkit                                                                                                                                                                             |
-| [vegeta](https://github.com/tsenart/vegeta)            | 648  | 3699  | HTTP load testing tool and library. It's over 9000!                                                                                                                                                |
-| [kubernetes](https://github.com/kubernetes/kubernetes) | 590  | 13903 | Container Cluster Manager from Google                                                                                                                                                              |
-| [dgraph](https://github.com/dgraph-io/dgraph)          | 553  | 1079  | Scalable, Distributed, Low Latency Graph Database                                                                                                                                                  |
-| [caddy](https://github.com/mholt/caddy)                | 516  | 5523  | Fast, cross-platform HTTP/2 web server with automatic HTTPS                                                                                                                                        |
-| [gin](https://github.com/gin-gonic/gin)                | 342  | 6290  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
-| [cockroach](https://github.com/cockroachdb/cockroach)  | 307  | 6696  | A Scalable, Survivable, Strongly-Consistent SQL Database                                                                                                                                           |
-| [minio](https://github.com/minio/minio)                | 301  | 1072  | Minio is an object storage server compatible with Amazon S3 and licensed under Apache 2.0 License                                                                                                  |
-| [etcd](https://github.com/coreos/etcd)                 | 291  | 9298  | Distributed reliable key-value store for the most critical data of a distributed system                                                                                                            |
-
-Most active repos in the past month (from 2016-03-18 to 2016-04-17)
--------------------------------------------------------------------
-
-| Repo name                                                                        | ↑Pushes | ★     | Description                                                                                                 |
-|----------------------------------------------------------------------------------|---------|-------|-------------------------------------------------------------------------------------------------------------|
-| [cockroach](https://github.com/cockroachdb/cockroach)                            | 380     | 6696  | A Scalable, Survivable, Strongly-Consistent SQL Database                                                    |
-| [kubernetes](https://github.com/kubernetes/kubernetes)                           | 352     | 13903 | Container Cluster Manager from Google                                                                       |
-| [tidb](https://github.com/pingcap/tidb)                                          | 219     | 3797  | TiDB is a distributed NewSQL database compatible with MySQL protocol                                        |
-| [etcd](https://github.com/coreos/etcd)                                           | 180     | 9298  | Distributed reliable key-value store for the most critical data of a distributed system                     |
-| [gofeed](https://github.com/mmcdole/gofeed)                                      | 161     | 368   | Parse RSS and Atom feeds in Go                                                                              |
-| [vitess](https://github.com/youtube/vitess)                                      | 105     | 3398  | vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services. |
-| [echo](https://github.com/labstack/echo)                                         | 92      | 4110  | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest.           |
-| [minio](https://github.com/minio/minio)                                          | 87      | 1072  | Minio is an object storage server compatible with Amazon S3 and licensed under Apache 2.0 License           |
-| [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) | 77      | 3246  | Google Go language IDE built using the IntelliJ Platform                                                    |
-| [micro](https://github.com/micro/micro)                                          | 62      | 1722  | A microservice toolkit                                                                                      |
-
-Inactive repos in 2016 (no recorded events and last updated was before 2016) (22 repos)
----------------------------------------------------------------------------------------
-
-| Repo name                                                                      | ★   | Description                                                                               |
-|--------------------------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------|
-| [mudlark-go-pkgs](https://github.com/pwil3058/mudlark-go-pkgs)                 | 0   | Automatically exported from code.google.com/p/mudlark-go-pkgs                             |
-| [mlgo](https://github.com/NullHypothesis/mlgo)                                 | 0   | Automatically exported from code.google.com/p/mlgo                                        |
-| [gumblr](https://github.com/mattcunningham/gumblr)                             | 0   | A Go Wrapper for the Tumblr v2 API                                                        |
-| [gocomplex](https://github.com/varver/gocomplex)                               | 1   | Automatically exported from code.google.com/p/gocomplex                                   |
-| [rrdaclient](https://github.com/Omie/rrdaclient)                               | 3   | Go bindings for RRDA https://github.com/fcambus/rrda                                      |
-| [go-google-analytics](https://github.com/chonthu/go-google-analytics)          | 4   | Simple Reporting for Google Analytics                                                     |
-| [golang-micro-benchmarks](https://github.com/amscanne/golang-micro-benchmarks) | 5   | Tiny collection of micro benchmarks.                                                      |
-| [smitego](https://github.com/sergiotapia/smitego)                              | 6   | SmiteGo is an API wrapper for the Smite game from HiRez. It is written in Go!             |
-| [go-steam](https://github.com/sostronk/go-steam)                               | 7   | Go library for querying Source servers                                                    |
-| [hgo](https://github.com/beyang/hgo)                                           | 7   | Hgo is a collection of Go packages providing read-access to local Mercurial repositories. |
-| [go-collada](https://github.com/GlenKelley/go-collada)                         | 8   | Go package for working with the Collada file format.                                      |
-| [libtextcat](https://github.com/goodsign/libtextcat)                           | 8   | Cgo binding for libtextcat C library                                                      |
-| [pushover](https://github.com/gregdel/pushover)                                | 10  | Go wrapper arround the Pushover API                                                       |
-| [brewerydb](https://github.com/naegelejd/brewerydb)                            | 10  | Go library for http://www.brewerydb.com/ API                                              |
-| [rex](https://github.com/goanywhere/rex)                                       | 10  | Pleasures for Web in Golang                                                               |
-| [golibstemmer](https://github.com/rjohnsondev/golibstemmer)                    | 10  | Go bindings for the snowball libstemmer library including porter 2                        |
-| [snowball](https://github.com/goodsign/snowball)                               | 13  | Cgo binding for Snowball C library                                                        |
-| [go-log](https://github.com/siddontang/go-log)                                 | 13  | a golang log lib supports level and multi handlers                                        |
-| [icu](https://github.com/goodsign/icu)                                         | 15  | Cgo binding for icu4c library                                                             |
-| [go-webcolors](https://github.com/jyotiska/go-webcolors)                       | 17  | Port of webcolors library from Python to Go                                               |
-| [api](https://github.com/resoursea/api)                                        | 24  | A REST framework for quickly writing resource based services in Golang.                   |
-| [multitick](https://github.com/VividCortex/multitick)                          | 43  | A multiplexor for aligned time.Time tickers in Go                                         |
-
-Inactive repos that has no push event in 2016 (235 repos)
----------------------------------------------------------
-
-| Repo name                                                                               | ★    | Description                                                                                                                                                                                                       |
-|-----------------------------------------------------------------------------------------|------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [mudlark-go-pkgs](https://github.com/pwil3058/mudlark-go-pkgs)                          | 0    | Automatically exported from code.google.com/p/mudlark-go-pkgs                                                                                                                                                     |
-| [mlgo](https://github.com/NullHypothesis/mlgo)                                          | 0    | Automatically exported from code.google.com/p/mlgo                                                                                                                                                                |
-| [gumblr](https://github.com/mattcunningham/gumblr)                                      | 0    | A Go Wrapper for the Tumblr v2 API                                                                                                                                                                                |
-| [probab](https://github.com/ThePaw/probab)                                              | 1    | Automatically exported from code.google.com/p/probab                                                                                                                                                              |
-| [go-eco](https://github.com/ThePaw/go-eco)                                              | 1    | Automatically exported from code.google.com/p/go-eco                                                                                                                                                              |
-| [gocomplex](https://github.com/varver/gocomplex)                                        | 1    | Automatically exported from code.google.com/p/gocomplex                                                                                                                                                           |
-| [go-gt](https://github.com/ThePaw/go-gt)                                                | 1    | Automatically exported from code.google.com/p/go-gt                                                                                                                                                               |
-| [go-fn](https://github.com/ematvey/go-fn)                                               | 1    | Automatically exported from code.google.com/p/go-fn                                                                                                                                                               |
-| [kace](https://github.com/codemodus/kace)                                               | 2    | Common case conversions covering common initialisms.                                                                                                                                                              |
-| [goshark](https://github.com/sunwxg/goshark)                                            | 2    |                                                                                                                                                                                                                   |
-| [porter](https://github.com/a2800276/porter)                                            | 3    | porter stemmer                                                                                                                                                                                                    |
-| [go-type-assertion-benchmark](https://github.com/hgfischer/go-type-assertion-benchmark) | 3    | Naive performance test of two ways to do type assertion in Go.                                                                                                                                                    |
-| [go\_mediainfo](https://github.com/zhulik/go_mediainfo)                                 | 3    | Golang bindings for libmediainfo                                                                                                                                                                                  |
-| [envconf](https://github.com/ian-kent/envconf)                                          | 3    | Configure Go applications from the environment                                                                                                                                                                    |
-| [rrdaclient](https://github.com/Omie/rrdaclient)                                        | 3    | Go bindings for RRDA https://github.com/fcambus/rrda                                                                                                                                                              |
-| [go-google-analytics](https://github.com/chonthu/go-google-analytics)                   | 4    | Simple Reporting for Google Analytics                                                                                                                                                                             |
-| [go-tmdb](https://github.com/jbrodriguez/go-tmdb)                                       | 4    |                                                                                                                                                                                                                   |
-| [go-txdb](https://github.com/DATA-DOG/go-txdb)                                          | 4    | Single transaction sql.Driver for GO                                                                                                                                                                              |
-| [mpo](https://github.com/donatj/mpo)                                                    | 4    | Simple Golang JPEG MPO (Multi Picture Object Decoder)                                                                                                                                                             |
-| [textbelt](https://github.com/dietsche/textbelt)                                        | 4    | golang library for textbelt.com                                                                                                                                                                                   |
-| [fastlz](https://github.com/digitalcrab/fastlz)                                         | 4    | Wrap over FastLz for GoLang                                                                                                                                                                                       |
-| [datacounter](https://github.com/miolini/datacounter)                                   | 4    | Golang counters for readers/writers                                                                                                                                                                               |
-| [golang-micro-benchmarks](https://github.com/amscanne/golang-micro-benchmarks)          | 5    | Tiny collection of micro benchmarks.                                                                                                                                                                              |
-| [abutil](https://github.com/bahlo/abutil)                                               | 5    | :ab: A collection of often-used Golang helpers                                                                                                                                                                    |
-| [yakvs](https://github.com/sci4me/yakvs)                                                | 6    | YAKVS (Yet Another Key Value Store)                                                                                                                                                                               |
-| [godist](https://github.com/e-dard/godist)                                              | 6    | Probability distributions and associated methods in Go                                                                                                                                                            |
-| [gofrac](https://github.com/anschelsc/gofrac)                                           | 6    | A fractions library for go (http://golang.org)                                                                                                                                                                    |
-| [go-spotify](https://github.com/rapito/go-spotify)                                      | 6    | Go library for the Spotify Web API                                                                                                                                                                                |
-| [smitego](https://github.com/sergiotapia/smitego)                                       | 6    | SmiteGo is an API wrapper for the Smite game from HiRez. It is written in Go!                                                                                                                                     |
-| [go-steam](https://github.com/sostronk/go-steam)                                        | 7    | Go library for querying Source servers                                                                                                                                                                            |
-| [awsenv](https://github.com/soniah/awsenv)                                              | 7    | AWS environment config loader                                                                                                                                                                                     |
-| [hgo](https://github.com/beyang/hgo)                                                    | 7    | Hgo is a collection of Go packages providing read-access to local Mercurial repositories.                                                                                                                         |
-| [go-collada](https://github.com/GlenKelley/go-collada)                                  | 8    | Go package for working with the Collada file format.                                                                                                                                                              |
-| [gostat](https://github.com/ematvey/gostat)                                             | 8    | Collection of statistical routines in golang                                                                                                                                                                      |
-| [libtextcat](https://github.com/goodsign/libtextcat)                                    | 8    | Cgo binding for libtextcat C library                                                                                                                                                                              |
-| [ethernet](https://github.com/mdlayher/ethernet)                                        | 9    | Package ethernet implements marshaling and unmarshaling of IEEE 802.3 Ethernet II frames and IEEE 802.1Q VLAN tags.                                                                                               |
-| [vorbis](https://github.com/mccoyst/vorbis)                                             | 9    | A "native" ogg vorbis decoder for Go (uses inline stb\_vorbis)                                                                                                                                                    |
-| [xkg](https://github.com/go-xkg/xkg)                                                    | 10   | X Keyboard Grabber                                                                                                                                                                                                |
-| [pushover](https://github.com/gregdel/pushover)                                         | 10   | Go wrapper arround the Pushover API                                                                                                                                                                               |
-| [brewerydb](https://github.com/naegelejd/brewerydb)                                     | 10   | Go library for http://www.brewerydb.com/ API                                                                                                                                                                      |
-| [kvbench](https://github.com/jimrobinson/kvbench)                                       | 10   | Key/Value database benchmark                                                                                                                                                                                      |
-| [rex](https://github.com/goanywhere/rex)                                                | 10   | Pleasures for Web in Golang                                                                                                                                                                                       |
-| [golibstemmer](https://github.com/rjohnsondev/golibstemmer)                             | 10   | Go bindings for the snowball libstemmer library including porter 2                                                                                                                                                |
-| [flowgraph](https://github.com/vectaport/flowgraph)                                     | 10   | Ready-send coordination layer on top of goroutines.                                                                                                                                                               |
-| [mp](https://github.com/sanbornm/mp)                                                    | 11   | Simple Email Parser                                                                                                                                                                                               |
-| [bro](https://github.com/marioidival/bro)                                               | 11   | bro watch files in directory and run tests for them                                                                                                                                                               |
-| [pravasan](https://github.com/pravasan/pravasan)                                        | 11   | Simple Migration Tool - written in Go                                                                                                                                                                             |
-| [okrun](https://github.com/xta/okrun)                                                   | 11   | ok, run your gofile                                                                                                                                                                                               |
-| [purl](https://github.com/ian-kent/purl)                                                | 11   | Perl, but fluffy like a cat!                                                                                                                                                                                      |
-| [slugify](https://github.com/avelino/slugify)                                           | 11   | A Go slugify application that handles string                                                                                                                                                                      |
-| [bind](https://github.com/robfig/bind)                                                  | 12   |                                                                                                                                                                                                                   |
-| [tga](https://github.com/ftrvxmtrx/tga)                                                 | 12   | Go package for decoding and encoding TARGA image format                                                                                                                                                           |
-| [autoflags](https://github.com/artyom/autoflags)                                        | 12   | Populate go command line app flags from config struct                                                                                                                                                             |
-| [paicehusk](https://github.com/rookii/paicehusk)                                        | 12   | Golang implementation of the Paice/Husk Stemming Algorithm                                                                                                                                                        |
-| [snowball](https://github.com/goodsign/snowball)                                        | 13   | Cgo binding for Snowball C library                                                                                                                                                                                |
-| [go-log](https://github.com/siddontang/go-log)                                          | 13   | a golang log lib supports level and multi handlers                                                                                                                                                                |
-| [go-nmea](https://github.com/adrianmo/go-nmea)                                          | 14   | NMEA parser library for Golang                                                                                                                                                                                    |
-| [mp3](https://github.com/tcolgate/mp3)                                                  | 14   | golang mp3 frame parser                                                                                                                                                                                           |
-| [gads](https://github.com/emiddleton/gads)                                              | 14   | Google Adwords API for Go                                                                                                                                                                                         |
-| [neo4j](https://github.com/cihangir/neo4j)                                              | 14   | Neo4j Rest API Client for Go lang                                                                                                                                                                                 |
-| [gami](https://github.com/bit4bit/gami)                                                 | 14   | GO - Asterisk AMI Interface                                                                                                                                                                                       |
-| [go-dkim](https://github.com/toorop/go-dkim)                                            | 15   | DKIM package for golang                                                                                                                                                                                           |
-| [Ghost](https://github.com/neuegram/Ghost)                                              | 15   | A Go library for Snapchat's API                                                                                                                                                                                   |
-| [medeina](https://github.com/imdario/medeina)                                           | 15   | Go HTTP routing tree based on HttpRouter. Inspired by Roda and Cuba.                                                                                                                                              |
-| [icu](https://github.com/goodsign/icu)                                                  | 15   | Cgo binding for icu4c library                                                                                                                                                                                     |
-| [stats](https://github.com/go-playground/stats)                                         | 16   | :chart\_with\_upwards\_trend: Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...                                                             |
-| [couchcache](https://github.com/codingsince1985/couchcache)                             | 16   | A RESTful caching micro-service backed by Couchbase server                                                                                                                                                        |
-| [golarm](https://github.com/msempere/golarm)                                            | 16   | Fire alarms with system events                                                                                                                                                                                    |
-| [raw](https://github.com/mdlayher/raw)                                                  | 16   | Package raw enables reading and writing data at the device driver level for a network interface. MIT Licensed.                                                                                                    |
-| [linkio](https://github.com/ian-kent/linkio)                                            | 16   | Simulate network link speed                                                                                                                                                                                       |
-| [go-webcolors](https://github.com/jyotiska/go-webcolors)                                | 17   | Port of webcolors library from Python to Go                                                                                                                                                                       |
-| [gomusicbrainz](https://github.com/michiwend/gomusicbrainz)                             | 17   | a Go (Golang) MusicBrainz WS2 client library - work in progress                                                                                                                                                   |
-| [overalls](https://github.com/go-playground/overalls)                                   | 17   | :jeans:Multi-Package go project coverprofile for tools like goveralls                                                                                                                                             |
-| [mockhttp](https://github.com/tv42/mockhttp)                                            | 18   | Mock object for Go http.ResponseWriter                                                                                                                                                                            |
-| [guesslanguage](https://github.com/endeveit/guesslanguage)                              | 18   | Guess the natural language of a text in Go                                                                                                                                                                        |
-| [portproxy](https://github.com/aybabtme/portproxy)                                      | 20   | TCP proxy, highjacks HTTP to allow CORS                                                                                                                                                                           |
-| [goose](https://github.com/ian-kent/goose)                                              | 20   | Server-Sent Events in Go                                                                                                                                                                                          |
-| [golang-sql-benchmark](https://github.com/tyler-smith/golang-sql-benchmark)             | 21   | A benchmarking shootout of various db/SQL utilities for Go                                                                                                                                                        |
-| [porter2](https://github.com/zhenjl/porter2)                                            | 21   | High Performance Porter2 Stemmer                                                                                                                                                                                  |
-| [hamcrest](https://github.com/rdrdr/hamcrest)                                           | 22   | Hamcrest matchers for the Go programming language                                                                                                                                                                 |
-| [api](https://github.com/resoursea/api)                                                 | 24   | A REST framework for quickly writing resource based services in Golang.                                                                                                                                           |
-| [goback](https://github.com/carlescere/goback)                                          | 24   | Golang simple exponential backoff package.                                                                                                                                                                        |
-| [jsonf](https://github.com/miolini/jsonf)                                               | 25   | Console JSON formatter with query feature                                                                                                                                                                         |
-| [glfw](https://github.com/goxjs/glfw)                                                   | 25   | Go cross-platform glfw library for creating an OpenGL context and receiving events.                                                                                                                               |
-| [gcm](https://github.com/Aorioli/gcm)                                                   | 27   | Google Cloud Messaging for application servers implemented using the Go programming language.                                                                                                                     |
-| [skiplist](https://github.com/gansidui/skiplist)                                        | 27   | skiplist for golang                                                                                                                                                                                               |
-| [checkstyle](https://github.com/qiniu/checkstyle)                                       | 28   | checkstyle for go                                                                                                                                                                                                 |
-| [log](https://github.com/alexcesaro/log)                                                | 28   | Logging packages for Go                                                                                                                                                                                           |
-| [stemmer](https://github.com/dchest/stemmer)                                            | 29   | Stemmer packages for Go programming language. Includes English and German stemmers.                                                                                                                               |
-| [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete)                       | 29   | bash completion for go and wgo                                                                                                                                                                                    |
-| [netbug](https://github.com/e-dard/netbug)                                              | 29   | Package netbug provides a handler for registering profilers on your own ServeMux.                                                                                                                                 |
-| [go-couchdb](https://github.com/fjl/go-couchdb)                                         | 30   | Yet another CouchDB HTTP API wrapper for Go                                                                                                                                                                       |
-| [rodent](https://github.com/alouche/rodent)                                             | 30   | Manage Go Versions/Projects/Dependencies                                                                                                                                                                          |
-| [structomap](https://github.com/tuvistavie/structomap)                                  | 30   | Easily and dynamically generate maps from Go static structures                                                                                                                                                    |
-| [statics](https://github.com/go-playground/statics)                                     | 31   | :file\_folder: Embeds static resources into go files for single binary compilation + works with http.FileSystem + symlinks                                                                                        |
-| [pkgreflect](https://github.com/ungerik/pkgreflect)                                     | 31   | A Go preprocessor for package scoped reflection                                                                                                                                                                   |
-| [geom](https://github.com/skelterjohn/geom)                                             | 33   | 2d geometry for golang                                                                                                                                                                                            |
-| [arp](https://github.com/mdlayher/arp)                                                  | 34   | Package arp implements the ARP protocol, as described in RFC 826. MIT Licensed.                                                                                                                                   |
-| [go-pr](https://github.com/daviddengcn/go-pr)                                           | 35   | Pattern recognition package in Go lang.                                                                                                                                                                           |
-| [graphql](https://github.com/tmc/graphql)                                               | 35   | graphql parser + utilities                                                                                                                                                                                        |
-| [goRecommend](https://github.com/timkaye11/goRecommend)                                 | 35   | Collaborative Filtering (CF) Algorithms in Go!                                                                                                                                                                    |
-| [trayhost](https://github.com/shurcooL/trayhost)                                        | 36   | Cross-platform Go library to place an icon in the host operating system's taskbar.                                                                                                                                |
-| [go-stem](https://github.com/agonopol/go-stem)                                          | 36   | Word Stemming in Go                                                                                                                                                                                               |
-| [go-sox](https://github.com/krig/go-sox)                                                | 36   | libsox bindings for go                                                                                                                                                                                            |
-| [libsvm](https://github.com/datastream/libsvm)                                          | 37   | libsvm go version                                                                                                                                                                                                 |
-| [gh](https://github.com/rjeczalik/gh)                                                   | 37   | Scriptable server and net/http middleware for GitHub Webhooks.                                                                                                                                                    |
-| [gounidecode](https://github.com/fiam/gounidecode)                                      | 37   | Unicode transliterator for \#golang                                                                                                                                                                               |
-| [sqrl](https://github.com/elgris/sqrl)                                                  | 37   | Fluent SQL generation for golang                                                                                                                                                                                  |
-| [gographviz](https://github.com/awalterschulze/gographviz)                              | 38   | Parses the Graphviz DOT language in golang                                                                                                                                                                        |
-| [pm](https://github.com/VividCortex/pm)                                                 | 39   | Processlist manager with TCP listener                                                                                                                                                                             |
-| [go-gd](https://github.com/bolknote/go-gd)                                              | 39   | Go bingings for GD (http://www.boutell.com/gd/)                                                                                                                                                                   |
-| [encoding](https://github.com/zhenjl/encoding)                                          | 40   | Integer Compression Libraries for Go                                                                                                                                                                              |
-| [go-taglib](https://github.com/wtolson/go-taglib)                                       | 40   | Go wrapper for taglib                                                                                                                                                                                             |
-| [textcat](https://github.com/pebbe/textcat)                                             | 41   | A Go package for n-gram based text categorization, with support for utf-8 and raw text                                                                                                                            |
-| [neural-go](https://github.com/schuyler/neural-go)                                      | 42   | A multilayer perceptron network implemented in Go, with training via backpropagation.                                                                                                                             |
-| [multitick](https://github.com/VividCortex/multitick)                                   | 43   | A multiplexor for aligned time.Time tickers in Go                                                                                                                                                                 |
-| [go-nlp](https://github.com/nuance/go-nlp)                                              | 45   | Utilities for working with discrete probability distributions and other tools useful for doing NLP work                                                                                                           |
-| [gocostmodel](https://github.com/PuerkitoBio/gocostmodel)                               | 47   | Benchmarks of common basic operations for the Go language.                                                                                                                                                        |
-| [MMSEGO](https://github.com/awsong/MMSEGO)                                              | 48   | Chinese word splitting algorithm MMSEG in GO                                                                                                                                                                      |
-| [jsongo](https://github.com/ricardolonga/jsongo)                                        | 48   | Fluent API to make it easier to create Json objects.                                                                                                                                                              |
-| [myreplication](https://github.com/2tvenom/myreplication)                               | 48   | Golang MySql binary log replication listener                                                                                                                                                                      |
-| [php\_session\_decoder](https://github.com/yvasiyarov/php_session_decoder)              | 49   | PHP session encoder/decoder written in Go                                                                                                                                                                         |
-| [gotenv](https://github.com/subosito/gotenv)                                            | 49   | Load environment variables dynamically in Go.                                                                                                                                                                     |
-| [go-mutesting](https://github.com/zimmski/go-mutesting)                                 | 50   | Mutation testing for Go source code                                                                                                                                                                               |
-| [gospecify](https://github.com/stesla/gospecify)                                        | 51   | A BDD library for Go                                                                                                                                                                                              |
-| [filetype](https://github.com/h2non/filetype)                                           | 51   | Small Go package to infer the file type checking the magic numbers signature                                                                                                                                      |
-| [termtables](https://github.com/apcera/termtables)                                      | 51   | Go ASCII Table Generator, ported from the Ruby terminal-tables library                                                                                                                                            |
-| [go-cairo](https://github.com/ungerik/go-cairo)                                         | 51   | Go binding for the cairo graphics library                                                                                                                                                                         |
-| [vectormath](https://github.com/spate/vectormath)                                       | 52   | Vectormath for Go                                                                                                                                                                                                 |
-| [bambam](https://github.com/glycerine/bambam)                                           | 53   | auto-generate capnproto schema from your golang source files. Depends on go-capnproto-1.0 at https://github.com/glycerine/go-capnproto                                                                            |
-| [yubigo](https://github.com/GeertJohan/yubigo)                                          | 55   | Yubigo is a Yubikey client API library that provides an easy way to integrate the Yubico Yubikey into your existing Go-based user authentication infrastructure.                                                  |
-| [forms](https://github.com/albrow/forms)                                                | 58   | A lightweight go library for parsing form data or json from an http.Request.                                                                                                                                      |
-| [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO)                                      | 62   | Neo4j REST Client in golang                                                                                                                                                                                       |
-| [colorgo](https://github.com/songgao/colorgo)                                           | 63   | Colorize (highlight) \`go build\` command output                                                                                                                                                                  |
-| [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go)                       | 63   | Vim compiler plugin for Go (golang)                                                                                                                                                                               |
-| [go-jump](https://github.com/dgryski/go-jump)                                           | 64   | go-jump: Jump consistent hashing                                                                                                                                                                                  |
-| [oplog](https://github.com/dailymotion/oplog)                                           | 65   | A generic oplog/replication system for microservices                                                                                                                                                              |
-| [scaneo](https://github.com/variadico/scaneo)                                           | 66   | Generate Go code to convert database rows into arbitrary structs.                                                                                                                                                 |
-| [lrserver](https://github.com/jaschaephraim/lrserver)                                   | 67   | LiveReload server for Go \[golang\]                                                                                                                                                                               |
-| [speedtest-resize](https://github.com/fawick/speedtest-resize)                          | 68   | Compare various Image resize algorithms for the Go language                                                                                                                                                       |
-| [kasia.go](https://github.com/ziutek/kasia.go)                                          | 68   | Templating system for HTML and other text documents - go implementation                                                                                                                                           |
-| [goes](https://github.com/belogik/goes)                                                 | 70   | A library to interact with Elasticsearch in Go!                                                                                                                                                                   |
-| [glop](https://github.com/runningwild/glop)                                             | 70   | Bare-bones osx alternative to sdl                                                                                                                                                                                 |
-| [go-trending](https://github.com/andygrunwald/go-trending)                              | 70   | Go library for accessing trending repositories and developers at Github.                                                                                                                                          |
-| [cache2go](https://github.com/muesli/cache2go)                                          | 71   | Simple go caching library with expiration capabilities and access counters                                                                                                                                        |
-| [go-store](https://github.com/gosuri/go-store)                                          | 71   | A simple and fast Redis backed key-value store library for Go                                                                                                                                                     |
-| [go-stun](https://github.com/ccding/go-stun)                                            | 72   | a go implementation of the STUN client (RFC 3489 and RFC 5389)                                                                                                                                                    |
-| [go-fann](https://github.com/white-pony/go-fann)                                        | 73   | Go bindings for FANN, library for artificial neural networks                                                                                                                                                      |
-| [img](https://github.com/hawx/img)                                                      | 75   | A selection of image manipulation tools                                                                                                                                                                           |
-| [golang-graphics](https://github.com/mholt/golang-graphics)                             | 76   | Community-contributed Go graphics files                                                                                                                                                                           |
-| [redeo](https://github.com/bsm/redeo)                                                   | 79   | High-performance framework for building redis-protocol compatible TCP servers/services                                                                                                                            |
-| [gobrain](https://github.com/goml/gobrain)                                              | 80   | Neural Networks written in go                                                                                                                                                                                     |
-| [deepcopier](https://github.com/ulule/deepcopier)                                       | 81   | simple struct copying for golang                                                                                                                                                                                  |
-| [bloom](https://github.com/zhenjl/bloom)                                                | 82   | Bloom filters implemented in Go.                                                                                                                                                                                  |
-| [raymond](https://github.com/aymerick/raymond)                                          | 83   | Handlebars for golang                                                                                                                                                                                             |
-| [pubsub](https://github.com/tuxychandru/pubsub)                                         | 83   | A simple pubsub package for go.                                                                                                                                                                                   |
-| [autobench](https://github.com/davecheney/autobench)                                    | 84   | Go benchmark harness.                                                                                                                                                                                             |
-| [mini](https://github.com/FogCreek/mini)                                                | 84   | A golang package for parsing ini-style configuration files                                                                                                                                                        |
-| [go-rest](https://github.com/ungerik/go-rest)                                           | 88   | A small and evil REST framework for Go                                                                                                                                                                            |
-| [blas](https://github.com/ziutek/blas)                                                  | 89   | Go implementation of BLAS (Basic Linear Algebra Subprograms)                                                                                                                                                      |
-| [httpauth](https://github.com/goji/httpauth)                                            | 91   | HTTP Authentication middlewares                                                                                                                                                                                   |
-| [dogo](https://github.com/liudng/dogo)                                                  | 92   | Monitoring changes in the source file and automatically compile and run (restart).                                                                                                                                |
-| [easyssh](https://github.com/hypersleep/easyssh)                                        | 93   | Golang package for easy remote execution through SSH                                                                                                                                                              |
-| [zeus](https://github.com/daryl/zeus)                                                   | 93   | Go HTTP router.                                                                                                                                                                                                   |
-| [passlib](https://github.com/hlandau/passlib)                                           | 94   | :key: Idiotproof golang password validation library inspired by Python's passlib                                                                                                                                  |
-| [grpool](https://github.com/ivpusic/grpool)                                             | 97   | Lightweight Goroutine pool                                                                                                                                                                                        |
-| [regommend](https://github.com/muesli/regommend)                                        | 98   | Recommendation engine for Go                                                                                                                                                                                      |
-| [timeutil](https://github.com/leekchan/timeutil)                                        | 102  | timeutil - useful extensions (Timedelta, Strftime, ...) to the golang's time package                                                                                                                              |
-| [go3d](https://github.com/ungerik/go3d)                                                 | 102  | A performance oriented 2D/3D math package for Go                                                                                                                                                                  |
-| [robustly](https://github.com/VividCortex/robustly)                                     | 103  | Run functions resiliently in Go, catching and restarting panics                                                                                                                                                   |
-| [goskiplist](https://github.com/ryszard/goskiplist)                                     | 103  | A skip list implementation in Go                                                                                                                                                                                  |
-| [Watch](https://github.com/eaburns/Watch)                                               | 104  | Watches for changes in a directory tree and reruns a command in an acme win or just on the terminal.                                                                                                              |
-| [gospec](https://github.com/orfjackal/gospec)                                           | 108  | Testing framework for Go. Allows writing self-documenting tests/specifications, and executes them concurrently and safely isolated. \[UNMAINTAINED\]                                                              |
-| [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx)                                  | 108  | Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.                                                |
-| [gst](https://github.com/ziutek/gst)                                                    | 110  | Go bindings for GStreamer                                                                                                                                                                                         |
-| [go-cron](https://github.com/rk/go-cron)                                                | 114  | A simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons. |
-| [go-galib](https://github.com/thoj/go-galib)                                            | 117  | Genetic Algorithms library written in Go / golang                                                                                                                                                                 |
-| [waveform](https://github.com/mdlayher/waveform)                                        | 118  | Go package capable of generating waveform images from audio streams. MIT Licensed.                                                                                                                                |
-| [assert](https://github.com/bmizerany/assert)                                           | 123  | Asserts to Go testing                                                                                                                                                                                             |
-| [logutils](https://github.com/hashicorp/logutils)                                       | 130  | Utilities for slightly better logging in Go (Golang).                                                                                                                                                             |
-| [EventBus](https://github.com/asaskevich/EventBus)                                      | 138  | \[Go\] Lightweight eventbus with async compatibility for Go                                                                                                                                                       |
-| [goast-viewer](https://github.com/yuroyoro/goast-viewer)                                | 139  | Golang AST visualizer                                                                                                                                                                                             |
-| [cuckoofilter](https://github.com/seiflotfy/cuckoofilter)                               | 142  | Cuckoo Filter: Practically Better Than Bloom                                                                                                                                                                      |
-| [go-astar](https://github.com/beefsack/go-astar)                                        | 144  | Go implementation of the A\* search algorithm                                                                                                                                                                     |
-| [gotcp](https://github.com/gansidui/gotcp)                                              | 148  | A Go package for quickly building tcp servers                                                                                                                                                                     |
-| [gobrew](https://github.com/cryptojuice/gobrew)                                         | 151  | Shell script to download and set GO environmental paths to allow multiple versions.                                                                                                                               |
-| [chalk](https://github.com/ttacon/chalk)                                                | 152  | Intuitive package for prettifying terminal/console output. http://godoc.org/github.com/ttacon/chalk                                                                                                               |
-| [go-logger](https://github.com/apsdehal/go-logger)                                      | 154  | Simple logger for Go programs                                                                                                                                                                                     |
-| [ewma](https://github.com/VividCortex/ewma)                                             | 154  | Exponentially Weighted Moving Average algorithms for Go.                                                                                                                                                          |
-| [badactor](https://github.com/jaredfolkins/badactor)                                    | 169  | BadActor.org An in-memory application driven jailer written in Go                                                                                                                                                 |
-| [go-nude](https://github.com/koyachi/go-nude)                                           | 171  | Nudity detection with Go.                                                                                                                                                                                         |
-| [go-rate](https://github.com/beefsack/go-rate)                                          | 187  | A timed rate limiter for Go                                                                                                                                                                                       |
-| [gigo](https://github.com/LyricalSecurity/gigo)                                         | 191  | GIGO: PIP for GO                                                                                                                                                                                                  |
-| [accounting](https://github.com/leekchan/accounting)                                    | 196  | money and currency formatting for golang                                                                                                                                                                          |
-| [smartcrop](https://github.com/muesli/smartcrop)                                        | 199  | smartcrop implementation in Go                                                                                                                                                                                    |
-| [johnny-deps](https://github.com/VividCortex/johnny-deps)                               | 215  | Barebones dependency manager for Go.                                                                                                                                                                              |
-| [agora](https://github.com/PuerkitoBio/agora)                                           | 217  | a dynamically typed, garbage collected, embeddable programming language built with Go                                                                                                                             |
-| [GarageEngine](https://github.com/vova616/GarageEngine)                                 | 220  | Game engine written in Go (golang).                                                                                                                                                                               |
-| [dotsql](https://github.com/gchaincl/dotsql)                                            | 223  | A Golang library for using SQL.                                                                                                                                                                                   |
-| [nut](https://github.com/jingweno/nut)                                                  | 244  | Vendor Go dependencies                                                                                                                                                                                            |
-| [godaemon](https://github.com/VividCortex/godaemon)                                     | 248  | Daemonize Go applications deviously.                                                                                                                                                                              |
-| [jobrunner](https://github.com/bamzi/jobrunner)                                         | 265  | Framework for performing work asynchronously, outside of the request flow                                                                                                                                         |
-| [levigo](https://github.com/jmhodges/levigo)                                            | 268  | levigo is a Go wrapper for LevelDB                                                                                                                                                                                |
-| [gondola](https://github.com/rainycape/gondola)                                         | 296  | The web framework for writing faster sites, faster                                                                                                                                                                |
-| [tunny](https://github.com/Jeffail/tunny)                                               | 301  | A goroutine pool for golang                                                                                                                                                                                       |
-| [chart](https://github.com/vdobler/chart)                                               | 302  | Provide basic charts in go                                                                                                                                                                                        |
-| [facebook](https://github.com/huandu/facebook)                                          | 302  | A Facebook Graph API SDK Library For Golang                                                                                                                                                                       |
-| [go.auth](https://github.com/bradrydzewski/go.auth)                                     | 305  | authentication API for Go web applications                                                                                                                                                                        |
-| [go-debug](https://github.com/tj/go-debug)                                              | 312  | Conditional debug logging for Golang libraries & applications                                                                                                                                                     |
-| [xstrings](https://github.com/huandu/xstrings)                                          | 314  | xstrings: A collection of useful string functions for Go.                                                                                                                                                         |
-| [gisp](https://github.com/jcla1/gisp)                                                   | 323  | Simple LISP in Go                                                                                                                                                                                                 |
-| [jobs](https://github.com/albrow/jobs)                                                  | 324  | A persistent and flexible background jobs library for go.                                                                                                                                                         |
-| [c6](https://github.com/c9s/c6)                                                         | 336  | Compile SASS Faster ! C6 is a SASS-compatible compiler written in Go.                                                                                                                                             |
-| [gcss](https://github.com/yosssi/gcss)                                                  | 337  | Pure Go CSS Preprocessor                                                                                                                                                                                          |
-| [go-selfupdate](https://github.com/sanbornm/go-selfupdate)                              | 360  | Enable your Golang applications to self update                                                                                                                                                                    |
-| [go-dsp](https://github.com/mjibson/go-dsp)                                             | 382  | Digital Signal Processing for Go                                                                                                                                                                                  |
-| [qbs](https://github.com/coocood/qbs)                                                   | 385  | QBS stands for Query By Struct. A Go ORM.                                                                                                                                                                         |
-| [httpcontrol](https://github.com/facebookgo/httpcontrol)                                | 407  | Package httpcontrol allows for HTTP transport level control around timeouts and retries.                                                                                                                          |
-| [htcat](https://github.com/htcat/htcat)                                                 | 416  | Parallel and Pipelined HTTP GET Utility                                                                                                                                                                           |
-| [binding](https://github.com/mholt/binding)                                             | 461  | Reflectionless data binding for Go's net/http (not yet a stable 1.0, but not likely to change much either)                                                                                                        |
-| [traffic](https://github.com/pilu/traffic)                                              | 471  | Sinatra inspired regexp/pattern mux and web framework for Go                                                                                                                                                      |
-| [gcli](https://github.com/tcnksm/gcli)                                                  | 476  | The easy way to build Golang command-line application.                                                                                                                                                            |
-| [redis](https://github.com/hoisie/redis)                                                | 501  | A simple, powerful Redis client for Go                                                                                                                                                                            |
-| [gorazor](https://github.com/sipin/gorazor)                                             | 502  | Razor view engine for Golang                                                                                                                                                                                      |
-| [now](https://github.com/jinzhu/now)                                                    | 587  | Now is a time toolkit for golang                                                                                                                                                                                  |
-| [gonet](https://github.com/xtaci/gonet)                                                 | 637  | a game server skeleton in golang                                                                                                                                                                                  |
-| [nosurf](https://github.com/justinas/nosurf)                                            | 639  | CSRF protection middleware for Go.                                                                                                                                                                                |
-| [llgo](https://github.com/go-llvm/llgo)                                                 | 732  | LLVM-based compiler for Go                                                                                                                                                                                        |
-| [go-linq](https://github.com/ahmetalpbalkan/go-linq)                                    | 753  | .NET LINQ-like query methods for Go                                                                                                                                                                               |
-| [goop](https://github.com/nitrous-io/goop)                                              | 759  | A simple dependency manager for Go (golang), inspired by Bundler.                                                                                                                                                 |
-| [go-underscore](https://github.com/tobyhede/go-underscore)                              | 840  | Helpfully Functional Go - A useful collection of Go utilities. Designed for programmer happiness.                                                                                                                 |
-| [gosms](https://github.com/haxpax/gosms)                                                | 914  | :mailbox\_closed: Your own local SMS gateway in Go                                                                                                                                                                |
-| [web](https://github.com/gocraft/web)                                                   | 1037 | Go Router + Middleware. Your Contexts.                                                                                                                                                                            |
-| [coop](https://github.com/rakyll/coop)                                                  | 1143 | Cheat sheet for some of the common concurrent flows in Go                                                                                                                                                         |
-| [streamtools](https://github.com/nytlabs/streamtools)                                   | 1273 | tools for working with streams of data                                                                                                                                                                            |
+<h1 align="center">
+ <br>
+  <img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/master/media/logo.svg" width="400">
+   <br>
+    <br>
+     <br>
+     </br>
+    </br>
+   </br>
+  </img>
+ </br>
+</h1>
+<blockquote>
+ <p>
+  A curated list of awesome lists
+ </p>
+</blockquote>
+<ul>
+ <li>
+  <a href="awesome.md">
+   What is an awesome list?
+  </a>
+ </li>
+ <li>
+  <a href="contributing.md">
+   Contribution guide
+  </a>
+ </li>
+ <li>
+  <a href="create-list.md">
+   Creating a list
+  </a>
+  <br>
+   <sup>
+    Please take the time to read this and do an actual effort with your list. All the low-quality submissions are burning me out...
+   </sup>
+  </br>
+ </li>
+ <li>
+  <a href="https://www.stickermule.com/marketplace/10034-awesome">
+   Buy a sticker
+  </a>
+ </li>
+</ul>
+<p>
+ <a href="https://gitter.im/sindresorhus/awesome">
+  <img alt="Awesome chat" src="https://badges.gitter.im/sindresorhus/awesome.svg"/>
+ </a>
+</p>
+<p>
+ -
+</p>
+<p>
+ Check out my
+ <a href="https://blog.sindresorhus.com">
+  blog
+ </a>
+ and follow me on
+ <a href="https://twitter.com/sindresorhus">
+  Twitter
+ </a>
+ .
+</p>
+<h2>
+ Table of Contents
+</h2>
+<ul>
+ <li>
+  <a href="#platforms">
+   Platforms
+  </a>
+ </li>
+ <li>
+  <a href="#programming-languages">
+   Programming Languages
+  </a>
+ </li>
+ <li>
+  <a href="#front-end-development">
+   Front-end Development
+  </a>
+ </li>
+ <li>
+  <a href="#back-end-development">
+   Back-end Development
+  </a>
+ </li>
+ <li>
+  <a href="#computer-science">
+   Computer Science
+  </a>
+ </li>
+ <li>
+  <a href="#big-data">
+   Big Data
+  </a>
+ </li>
+ <li>
+  <a href="#theory">
+   Theory
+  </a>
+ </li>
+ <li>
+  <a href="#books">
+   Books
+  </a>
+ </li>
+ <li>
+  <a href="#editors">
+   Editors
+  </a>
+ </li>
+ <li>
+  <a href="#gaming">
+   Gaming
+  </a>
+ </li>
+ <li>
+  <a href="#development-environment">
+   Development Environment
+  </a>
+ </li>
+ <li>
+  <a href="#entertainment">
+   Entertainment
+  </a>
+ </li>
+ <li>
+  <a href="#databases">
+   Databases
+  </a>
+ </li>
+ <li>
+  <a href="#media">
+   Media
+  </a>
+ </li>
+ <li>
+  <a href="#learn">
+   Learn
+  </a>
+ </li>
+ <li>
+  <a href="#security">
+   Security
+  </a>
+ </li>
+ <li>
+  <a href="#content-management-system">
+   Content Management System
+  </a>
+ </li>
+ <li>
+  <a href="#miscellaneous">
+   Miscellaneous
+  </a>
+ </li>
+</ul>
+<h2>
+ Platforms
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/sindresorhus/awesome-nodejs">
+   Node.js
+  </a>
+  <span>
+   | &#9733 11184, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/dypsilon/frontend-dev-bookmarks">
+   Frontend Development
+  </a>
+  <span>
+   | &#9733 18585, pushed 13 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/vsouza/awesome-ios">
+   iOS
+  </a>
+  <span>
+   | &#9733 10799, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/JStumpp/awesome-android">
+   Android
+  </a>
+  <span>
+   | &#9733 2263, pushed 3 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/weblancaster/awesome-IoT-hybrid">
+   IoT & Hybrid Apps
+  </a>
+  <span>
+   | &#9733 184, pushed 74 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sindresorhus/awesome-electron">
+   Electron
+  </a>
+  <span>
+   | &#9733 5559, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/busterc/awesome-cordova">
+   Cordova
+  </a>
+  <span>
+   | &#9733 103, pushed 100 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/jondot/awesome-react-native">
+   React Native
+  </a>
+  <span>
+   | &#9733 4037, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/benoitjadinon/awesome-xamarin">
+   Xamarin
+  </a>
+  <span>
+   | &#9733 94, pushed 8 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/aleksandar-todorovic/awesome-linux">
+   Linux
+  </a>
+  <span>
+   | &#9733 323, pushed 47 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/Friz-zy/awesome-linux-containers">
+     Containers
+    </a>
+    <span>
+     | &#9733 83, pushed 31 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/iCHAIT/awesome-osx">
+   OS X
+  </a>
+  <span>
+   | &#9733 3864, pushed 4 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/herrbischoff/awesome-osx-command-line">
+     Command-Line
+    </a>
+    <span>
+     | &#9733 7430, pushed 4 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/aharris88/awesome-osx-screensavers">
+     Screensavers
+    </a>
+    <span>
+     | &#9733 175, pushed 9 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/yenchenlin1994/awesome-watchos">
+   watchOS
+  </a>
+  <span>
+   | &#9733 159, pushed 61 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/deephacks/awesome-jvm">
+   JVM
+  </a>
+  <span>
+   | &#9733 120, pushed 5 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/mailtoharshit/awesome-salesforce">
+   Salesforce
+  </a>
+  <span>
+   | &#9733 55, pushed 35 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/donnemartin/awesome-aws">
+   Amazon Web Services
+  </a>
+  <span>
+   | &#9733 1832, pushed 2 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/RiseLedger/awesome-windows">
+   Windows
+  </a>
+  <span>
+   | &#9733 60, pushed 38 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ipfs/awesome-ipfs">
+   IPFS
+  </a>
+  <span>
+   | &#9733 157, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/vinkla/awesome-fuse">
+   Fuse
+  </a>
+  <span>
+   | &#9733 107, pushed 4 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ianstormtaylor/awesome-heroku">
+   Heroku
+  </a>
+  <span>
+   | &#9733 11, pushed 13 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Programming Languages
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/sorrycc/awesome-javascript">
+   JavaScript
+  </a>
+  <span>
+   | &#9733 5773, pushed 3 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/wbinnssmith/awesome-promises">
+     Promises
+    </a>
+    <span>
+     | &#9733 564, pushed 19 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/feross/awesome-standard">
+     Standard Style
+    </a>
+    <span>
+     | &#9733 118, pushed 4 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/bolshchikov/js-must-watch">
+     Must Watch Talks
+    </a>
+    <span>
+     | &#9733 10608, pushed 23 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/loverajoel/jstips">
+     Tips
+    </a>
+    <span>
+     | &#9733 9463, pushed 3 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/Kikobeats/awesome-network-js">
+     Network Layer
+    </a>
+    <span>
+     | &#9733 215, pushed 30 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/parro-it/awesome-micro-npm-packages">
+     Micro npm Packages
+    </a>
+    <span>
+     | &#9733 232, pushed 3 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/feross/awesome-mad-science">
+     Mad Science npm Packages
+    </a>
+    <span>
+     | &#9733 446, pushed 54 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/maxogden/maintenance-modules">
+     Maintenance Modules
+    </a>
+    <span>
+     | &#9733 228, pushed 89 days ago |
+    </span>
+    <em>
+     (for npm packages)
+    </em>
+   </li>
+   <li>
+    <a href="https://github.com/sindresorhus/awesome-npm">
+     npm
+    </a>
+    <span>
+     | &#9733 1686, pushed 3 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/sindresorhus/awesome-ava">
+     AVA
+    </a>
+    <span>
+     | &#9733 95, pushed 0 days ago |
+    </span>
+    <em>
+     (Test runner)
+    </em>
+   </li>
+   <li>
+    <a href="https://github.com/dustinspecker/awesome-eslint">
+     ESLint
+    </a>
+    <span>
+     | &#9733 113, pushed 0 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/matteocrippa/awesome-swift">
+   Swift
+  </a>
+  <span>
+   | &#9733 7765, pushed 0 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/hsavit1/Awesome-Swift-Education">
+     Education
+    </a>
+    <span>
+     | &#9733 4431, pushed 8 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/uraimo/Awesome-Swift-Playgrounds">
+     Playgrounds
+    </a>
+    <span>
+     | &#9733 397, pushed 6 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/vinta/awesome-python">
+   Python
+  </a>
+  <span>
+   | &#9733 20041, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/kud1ing/awesome-rust">
+   Rust
+  </a>
+  <span>
+   | &#9733 2028, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/krispo/awesome-haskell">
+   Haskell
+  </a>
+  <span>
+   | &#9733 711, pushed 9 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/passy/awesome-purescript">
+   PureScript
+  </a>
+  <span>
+   | &#9733 57, pushed 56 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/avelino/awesome-go">
+   Go
+  </a>
+  <span>
+   | &#9733 12248, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/lauris/awesome-scala">
+   Scala
+  </a>
+  <span>
+   | &#9733 3330, pushed 3 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/markets/awesome-ruby">
+   Ruby
+  </a>
+  <span>
+   | &#9733 5602, pushed 0 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/planetruby/awesome-events">
+     Ruby Events
+    </a>
+    <span>
+     | &#9733 167, pushed 4 days ago |
+    </span>
+    <em>
+     (Conferences, Meetups, etc.)
+    </em>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/razum2um/awesome-clojure">
+   Clojure
+  </a>
+  <span>
+   | &#9733 666, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/emrehan/awesome-clojurescript">
+   ClojureScript
+  </a>
+  <span>
+   | &#9733 241, pushed 27 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/h4cc/awesome-elixir">
+   Elixir
+  </a>
+  <span>
+   | &#9733 3564, pushed 3 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/isRuslan/awesome-elm">
+   Elm
+  </a>
+  <span>
+   | &#9733 558, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/drobakowski/awesome-erlang">
+   Erlang
+  </a>
+  <span>
+   | &#9733 417, pushed 8 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/svaksha/Julia.jl">
+   Julia
+  </a>
+  <span>
+   | &#9733 320, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/LewisJEllis/awesome-lua">
+   Lua
+  </a>
+  <span>
+   | &#9733 802, pushed 50 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/aleksandar-todorovic/awesome-c">
+   C
+  </a>
+  <span>
+   | &#9733 206, pushed 18 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/fffaraz/awesome-cpp">
+   C/C++
+  </a>
+  <span>
+   | &#9733 4845, pushed 4 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/qinwf/awesome-R">
+   R
+  </a>
+  <span>
+   | &#9733 1295, pushed 2 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/zhaopuming/awesome-d">
+   D
+  </a>
+  <span>
+   | &#9733 122, pushed 6 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/CodyReichert/awesome-cl">
+   Common Lisp
+  </a>
+  <span>
+   | &#9733 273, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/hachiojipm/awesome-perl">
+   Perl
+  </a>
+  <span>
+   | &#9733 263, pushed 73 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/kdabir/awesome-groovy">
+   Groovy
+  </a>
+  <span>
+   | &#9733 258, pushed 3 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/yissachar/awesome-dart">
+   Dart
+  </a>
+  <span>
+   | &#9733 132, pushed 111 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/akullpp/awesome-java">
+   Java
+  </a>
+  <span>
+   | &#9733 6605, pushed 0 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/eleventigers/awesome-rxjava">
+     RxJava
+    </a>
+    <span>
+     | &#9733 23, pushed 18 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/JavaBy/awesome-kotlin">
+   Kotlin
+  </a>
+ </li>
+ <li>
+  <a href="https://github.com/rizo/awesome-ocaml">
+   OCaml
+  </a>
+  <span>
+   | &#9733 595, pushed 16 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/seancoyne/awesome-coldfusion">
+   Coldfusion
+  </a>
+  <span>
+   | &#9733 29, pushed 91 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/rabbiabram/awesome-fortran">
+   Fortran
+  </a>
+  <span>
+   | &#9733 64, pushed 95 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/quozd/awesome-dotnet">
+   .NET
+  </a>
+  <span>
+   | &#9733 1680, pushed 7 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ziadoz/awesome-php">
+   PHP
+  </a>
+  <span>
+   | &#9733 11501, pushed 5 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/Fr0sT-Brutal/awesome-delphi">
+   Delphi
+  </a>
+  <span>
+   | &#9733 122, pushed 73 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/mat0thew/awesome-asm">
+   Assembler
+  </a>
+ </li>
+ <li>
+  <a href="https://github.com/ahkscript/awesome-AutoHotkey">
+   AutoHotkey
+  </a>
+  <span>
+   | &#9733 225, pushed 11 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/J2TeaM/awesome-AutoIt">
+   AutoIt
+  </a>
+  <span>
+   | &#9733 32, pushed 46 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/veelenga/awesome-crystal">
+   Crystal
+  </a>
+  <span>
+   | &#9733 296, pushed 4 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/dzharii/awesome-typescript">
+   TypeScript
+  </a>
+  <span>
+   | &#9733 99, pushed 49 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Front-end Development
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/addyosmani/es6-tools">
+   ES6 Tools
+  </a>
+  <span>
+   | &#9733 2972, pushed 51 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/davidsonfellipe/awesome-wpo">
+   Web Performance Optimization
+  </a>
+  <span>
+   | &#9733 5349, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/lvwzhen/tools">
+   Web Tools
+  </a>
+  <span>
+   | &#9733 188, pushed 49 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sotayamashita/awesome-css">
+   CSS
+  </a>
+  <span>
+   | &#9733 398, pushed 0 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/addyosmani/critical-path-css-tools">
+     Critical-Path (Above-the-fold) Tools
+    </a>
+    <span>
+     | &#9733 571, pushed 51 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/davidtheclark/scalable-css-reading-list">
+     Scalability
+    </a>
+    <span>
+     | &#9733 1015, pushed 14 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/AllThingsSmitty/must-watch-css">
+     Must-Watch Talks
+    </a>
+    <span>
+     | &#9733 1992, pushed 48 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/AllThingsSmitty/css-protips">
+     Protips
+    </a>
+    <span>
+     | &#9733 6685, pushed 6 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/enaqx/awesome-react">
+   React
+  </a>
+  <span>
+   | &#9733 12954, pushed 1 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/expede/awesome-relay">
+     Relay
+    </a>
+    <span>
+     | &#9733 59, pushed 33 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/mateusortiz/webcomponents-the-right-way">
+   Web Components
+  </a>
+  <span>
+   | &#9733 792, pushed 156 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/Granze/awesome-polymer">
+   Polymer
+  </a>
+  <span>
+   | &#9733 206, pushed 25 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/AngularClass/awesome-angular2">
+   Angular 2
+  </a>
+  <span>
+   | &#9733 1365, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/gianarb/awesome-angularjs">
+   Angular
+  </a>
+  <span>
+   | &#9733 1457, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sadcitizen/awesome-backbone">
+   Backbone
+  </a>
+  <span>
+   | &#9733 316, pushed 22 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/diegocard/awesome-html5">
+   HTML5
+  </a>
+  <span>
+   | &#9733 468, pushed 61 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/willianjusten/awesome-svg">
+   SVG
+  </a>
+  <span>
+   | &#9733 2849, pushed 2 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/raphamorim/awesome-canvas">
+   Canvas
+  </a>
+  <span>
+   | &#9733 92, pushed 59 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/dnbard/awesome-knockout">
+   KnockoutJS
+  </a>
+  <span>
+   | &#9733 36, pushed 40 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/peterkokot/awesome-dojo">
+   Dojo Toolkit
+  </a>
+  <span>
+   | &#9733 46, pushed 122 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/NoahBuscher/Inspire">
+   Inspiration
+  </a>
+  <span>
+   | &#9733 370, pushed 131 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/nmec/awesome-ember">
+   Ember
+  </a>
+  <span>
+   | &#9733 123, pushed 2 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/wasabeef/awesome-android-ui">
+   Android UI
+  </a>
+  <span>
+   | &#9733 13627, pushed 13 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/cjwirth/awesome-ios-ui">
+   iOS UI
+  </a>
+  <span>
+   | &#9733 7817, pushed 30 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/Urigo/awesome-meteor">
+   Meteor
+  </a>
+  <span>
+   | &#9733 537, pushed 15 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sturobson/BEM-resources">
+   BEM
+  </a>
+  <span>
+   | &#9733 143, pushed 16 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/afonsopacifer/awesome-flexbox">
+   Flexbox
+  </a>
+  <span>
+   | &#9733 325, pushed 4 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/deanhume/typography">
+   Web Typography
+  </a>
+  <span>
+   | &#9733 142, pushed 33 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/brunopulis/awesome-a11y">
+   Web Accessibility
+  </a>
+  <span>
+   | &#9733 123, pushed 7 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sachin1092/awesome-material">
+   Material Design
+  </a>
+  <span>
+   | &#9733 332, pushed 88 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/wbkd/awesome-d3">
+   D3
+  </a>
+  <span>
+   | &#9733 2765, pushed 13 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/jonathandion/awesome-emails">
+   Emails
+  </a>
+  <span>
+   | &#9733 73, pushed 12 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/peterkokot/awesome-jquery">
+   jQuery
+  </a>
+  <span>
+   | &#9733 184, pushed 16 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know">
+     Tips
+    </a>
+    <span>
+     | &#9733 3676, pushed 39 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/notthetup/awesome-webaudio">
+   Web Audio
+  </a>
+  <span>
+   | &#9733 147, pushed 8 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/pazguille/offline-first">
+   Offline-First
+  </a>
+  <span>
+   | &#9733 1384, pushed 29 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/aharris88/awesome-static-website-services">
+   Static Website Services
+  </a>
+  <span>
+   | &#9733 170, pushed 4 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/aframevr/awesome-aframe">
+   A-Frame VR
+  </a>
+  <span>
+   | &#9733 203, pushed 7 days ago |
+  </span>
+  <em>
+   (Virtual reality)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/vic/awesome-cyclejs">
+   Cycle.js
+  </a>
+  <span>
+   | &#9733 302, pushed 4 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/dok/awesome-text-editing">
+   Text Editing
+  </a>
+  <span>
+   | &#9733 7, pushed 40 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/fliptheweb/motion-ui-design">
+   Motion UI Design
+  </a>
+  <span>
+   | &#9733 222, pushed 18 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/vuejs/awesome-vue">
+   Vue.js
+  </a>
+  <span>
+   | &#9733 2062, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sadcitizen/awesome-marionette">
+   Marionette.js
+  </a>
+  <span>
+   | &#9733 101, pushed 10 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/behzad888/awesome-aurelia">
+   Aurelia
+  </a>
+  <span>
+   | &#9733 14, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/zingchart/awesome-charting">
+   Charting
+  </a>
+  <span>
+   | &#9733 555, pushed 14 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/candelibas/awesome-ionic2">
+   Ionic Framework 2
+  </a>
+  <span>
+   | &#9733 46, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ChromeDevTools/awesome-chrome-devtools">
+   Chrome DevTools
+  </a>
+  <span>
+   | &#9733 1305, pushed 3 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Back-end Development
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/rosarior/awesome-django">
+   Django
+  </a>
+  <span>
+   | &#9733 3590, pushed 10 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/humiaozuzu/awesome-flask">
+   Flask
+  </a>
+  <span>
+   | &#9733 2264, pushed 4 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/veggiemonk/awesome-docker">
+   Docker
+  </a>
+  <span>
+   | &#9733 3019, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/iJackUA/awesome-vagrant">
+   Vagrant
+  </a>
+  <span>
+   | &#9733 175, pushed 53 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/uralbash/awesome-pyramid">
+   Pyramid
+  </a>
+  <span>
+   | &#9733 240, pushed 33 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/PerfectCarl/awesome-play1">
+   Play1 Framework
+  </a>
+  <span>
+   | &#9733 22, pushed 98 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/friendsofcake/awesome-cakephp">
+   CakePHP
+  </a>
+  <span>
+   | &#9733 388, pushed 5 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sitepoint/awesome-symfony">
+   Symfony
+  </a>
+  <span>
+   | &#9733 681, pushed 33 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/Symfonisti/awesome-symfony-education">
+     Education
+    </a>
+    <span>
+     | &#9733 128, pushed 36 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/chiraggude/awesome-laravel">
+   Laravel
+  </a>
+  <span>
+   | &#9733 2657, pushed 7 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/fukuball/Awesome-Laravel-Education/blob/master/langs/en_US.md">
+     Education
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/ekremkaraca/awesome-rails">
+   Rails
+  </a>
+  <span>
+   | &#9733 813, pushed 32 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/hothero/awesome-rails-gem">
+     Gems
+    </a>
+    <span>
+     | &#9733 1604, pushed 18 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/sergeyklay/awesome-phalcon">
+   Phalcon
+  </a>
+  <span>
+   | &#9733 171, pushed 16 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/phanan/htaccess">
+   Useful
+   <code>
+    .htaccess
+   </code>
+   Snippets
+  </a>
+  <span>
+   | &#9733 9193, pushed 12 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/fcambus/nginx-resources">
+   nginx
+  </a>
+  <span>
+   | &#9733 1615, pushed 51 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/stve/awesome-dropwizard">
+   Dropwizard
+  </a>
+  <span>
+   | &#9733 11, pushed 3 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ramitsurana/awesome-kubernetes">
+   Kubernetes
+  </a>
+  <span>
+   | &#9733 132, pushed 11 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/unicodeveloper/awesome-lumen">
+   Lumen
+  </a>
+  <span>
+   | &#9733 56, pushed 22 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Computer Science
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/prakhar1989/awesome-courses">
+   University Courses
+  </a>
+  <span>
+   | &#9733 14808, pushed 6 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/okulbilisim/awesome-datascience">
+   Data Science
+  </a>
+  <span>
+   | &#9733 2293, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/josephmisiti/awesome-machine-learning">
+   Machine Learning
+  </a>
+  <span>
+   | &#9733 12376, pushed 2 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/ujjwalkarn/Machine-Learning-Tutorials">
+     Tutorials
+    </a>
+    <span>
+     | &#9733 2178, pushed 64 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/edobashira/speech-language-processing">
+   Speech and Natural Language Processing
+  </a>
+  <span>
+   | &#9733 1186, pushed 91 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/dav009/awesome-spanish-nlp">
+     Spanish
+    </a>
+    <span>
+     | &#9733 45, pushed 130 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/theimpossibleastronaut/awesome-linguistics">
+   Linguistics
+  </a>
+  <span>
+   | &#9733 39, pushed 255 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/MaciejCzyzewski/retter">
+   Cryptography
+  </a>
+  <span>
+   | &#9733 1539, pushed 176 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/jbhuang0604/awesome-computer-vision">
+   Computer Vision
+  </a>
+  <span>
+   | &#9733 1224, pushed 31 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ChristosChristofidis/awesome-deep-learning">
+   Deep Learning
+  </a>
+  <span>
+   | &#9733 1840, pushed 36 days ago |
+  </span>
+  <em>
+   (Neural networks)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/kjw0612/awesome-deep-vision">
+   Deep Vision
+  </a>
+  <span>
+   | &#9733 1150, pushed 19 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/open-source-society/computer-science">
+   Open Source Society University
+  </a>
+  <span>
+   | &#9733 13563, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/lucasviola/awesome-functional-programming">
+   Functional Programming
+  </a>
+  <span>
+   | &#9733 114, pushed 49 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/mre/awesome-static-analysis">
+   Static Analysis & Code Quality
+  </a>
+  <span>
+   | &#9733 68, pushed 10 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sdnds-tw/awesome-sdn">
+   Software-Defined Networking
+  </a>
+  <span>
+   | &#9733 18, pushed 33 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Big Data
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/onurakpolat/awesome-bigdata">
+   Big Data
+  </a>
+  <span>
+   | &#9733 3065, pushed 11 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/caesar0301/awesome-public-datasets">
+   Public Datasets
+  </a>
+  <span>
+   | &#9733 13760, pushed 3 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/youngwookim/awesome-hadoop">
+   Hadoop
+  </a>
+  <span>
+   | &#9733 320, pushed 55 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/igorbarinov/awesome-data-engineering">
+   Data Engineering
+  </a>
+  <span>
+   | &#9733 450, pushed 9 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/manuzhang/awesome-streaming">
+   Streaming
+  </a>
+  <span>
+   | &#9733 42, pushed 10 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Theory
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/papers-we-love/papers-we-love">
+   Papers We Love
+  </a>
+  <span>
+   | &#9733 16056, pushed 4 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/JanVanRyswyck/awesome-talks">
+   Talks
+  </a>
+  <span>
+   | &#9733 1150, pushed 8 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/tayllan/awesome-algorithms">
+   Algorithms
+  </a>
+  <span>
+   | &#9733 1389, pushed 30 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/enjalot/algovis">
+   Algorithm Visualizations
+  </a>
+  <span>
+   | &#9733 488, pushed 78 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/owainlewis/awesome-artificial-intelligence">
+   Artificial Intelligence
+  </a>
+  <span>
+   | &#9733 1493, pushed 12 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/marcobiedermann/search-engine-optimization">
+   Search Engine Optimization
+  </a>
+  <span>
+   | &#9733 214, pushed 50 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/lnishan/awesome-competitive-programming">
+   Competitive Programming
+  </a>
+  <span>
+   | &#9733 132, pushed 12 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/rossant/awesome-math">
+   Math
+  </a>
+  <span>
+   | &#9733 130, pushed 7 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Books
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/vhf/free-programming-books">
+   Free Programming Books
+  </a>
+  <span>
+   | &#9733 53940, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ligurio/free-software-testing-books/blob/master/free-software-testing-books.md">
+   Free Software Testing Books
+  </a>
+ </li>
+ <li>
+  <a href="https://github.com/dariubs/GoBooks">
+   Go Books
+  </a>
+  <span>
+   | &#9733 2043, pushed 24 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/RomanTsegelskyi/rbooks">
+   R Books
+  </a>
+  <span>
+   | &#9733 27, pushed 6 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/hackerkid/Mind-Expanding-Books">
+   Mind Expanding Books
+  </a>
+  <span>
+   | &#9733 331, pushed 3 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Editors
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/dreikanter/sublime-bookmarks">
+   Sublime Text
+  </a>
+  <span>
+   | &#9733 374, pushed 66 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/mhinz/vim-galore">
+   Vim
+  </a>
+  <span>
+   | &#9733 4604, pushed 16 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/emacs-tw/awesome-emacs">
+   Emacs
+  </a>
+  <span>
+   | &#9733 1731, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/mehcode/awesome-atom">
+   Atom
+  </a>
+  <span>
+   | &#9733 306, pushed 46 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/viatsko/awesome-vscode">
+   Visual Studio Code
+  </a>
+  <span>
+   | &#9733 85, pushed 58 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Gaming
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/ellisonleao/magictools">
+   Game Development
+  </a>
+  <span>
+   | &#9733 2852, pushed 24 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/hzoo/awesome-gametalks">
+   Game Talks
+  </a>
+  <span>
+   | &#9733 269, pushed 19 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/Calinou/awesome-godot">
+   Godot
+  </a>
+  <span>
+   | &#9733 124, pushed 7 days ago |
+  </span>
+  <em>
+   (Game engine)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/leereilly/games">
+   Open Source Games
+  </a>
+  <span>
+   | &#9733 2555, pushed 3 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/RyanNielson/awesome-unity">
+   Unity
+  </a>
+  <span>
+   | &#9733 524, pushed 4 days ago |
+  </span>
+  <em>
+   (Game engine)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/hkirat/awesome-chess">
+   Chess
+  </a>
+  <span>
+   | &#9733 18, pushed 20 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/JanWerder/awesome-love2d">
+   LÖVE
+  </a>
+  <em>
+   (Game engine)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/felipebueno/awesome-PICO-8">
+   PICO-8
+  </a>
+  <span>
+   | &#9733 83, pushed 18 days ago |
+  </span>
+  <em>
+   (Fantasy console)
+  </em>
+ </li>
+</ul>
+<h2>
+ Development Environment
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/sindresorhus/quick-look-plugins">
+   Quick Look Plugins
+  </a>
+  <span>
+   | &#9733 5887, pushed 48 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/jondot/awesome-devenv">
+   Dev Env
+  </a>
+  <span>
+   | &#9733 380, pushed 97 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/webpro/awesome-dotfiles">
+   Dotfiles
+  </a>
+  <span>
+   | &#9733 1032, pushed 51 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/alebcay/awesome-shell">
+   Shell
+  </a>
+  <span>
+   | &#9733 6604, pushed 2 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/aharris88/awesome-cli-apps">
+   Command-Line Apps
+  </a>
+  <span>
+   | &#9733 384, pushed 6 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/unixorn/awesome-zsh-plugins">
+   ZSH Plugins
+  </a>
+  <span>
+   | &#9733 1420, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/phillipadsmith/awesome-github">
+   GitHub
+  </a>
+  <span>
+   | &#9733 183, pushed 29 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/stefanbuck/awesome-browser-extensions-for-github">
+     Browser Extensions
+    </a>
+    <span>
+     | &#9733 441, pushed 9 days ago |
+    </span>
+   </li>
+   <li>
+    <a href="https://github.com/tiimgreen/github-cheat-sheet">
+     Cheat Sheet
+    </a>
+    <span>
+     | &#9733 18418, pushed 12 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/arslanbilal/git-cheat-sheet">
+   Git Cheat Sheet & Git Flow
+  </a>
+  <span>
+   | &#9733 1133, pushed 35 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/git-tips/tips">
+   Git Tips
+  </a>
+  <span>
+   | &#9733 497, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/stevemao/awesome-git-addons">
+   Git Add-ons
+  </a>
+  <span>
+   | &#9733 221, pushed 37 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/moul/awesome-ssh">
+   SSH
+  </a>
+  <span>
+   | &#9733 312, pushed 31 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/httpsGithubParty/FOSS-for-Dev">
+   FOSS for Developers
+  </a>
+  <span>
+   | &#9733 113, pushed 39 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Entertainment
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/sindresorhus/awesome-scifi">
+   Science Fiction
+  </a>
+  <span>
+   | &#9733 991, pushed 48 days ago |
+  </span>
+  <em>
+   (Scifi)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/RichardLitt/awesome-fantasy">
+   Fantasy
+  </a>
+  <span>
+   | &#9733 168, pushed 59 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/guipdutra/awesome-geek-podcasts">
+   Podcasts
+  </a>
+  <span>
+   | &#9733 588, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/vredniy/awesome-newsletters">
+   Email Newsletters
+  </a>
+  <span>
+   | &#9733 289, pushed 5 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Databases
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/numetriclabz/awesome-db">
+   Database
+  </a>
+  <span>
+   | &#9733 201, pushed 15 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/shlomi-noach/awesome-mysql/blob/gh-pages/index.md">
+   MySQL
+  </a>
+ </li>
+ <li>
+  <a href="https://github.com/dahlia/awesome-sqlalchemy">
+   SQLAlchemy
+  </a>
+  <span>
+   | &#9733 1086, pushed 15 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/mark-rushakoff/awesome-influxdb">
+   InfluxDB
+  </a>
+  <span>
+   | &#9733 93, pushed 9 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/Neueda4j/awesome-neo4j">
+   Neo4j
+  </a>
+  <span>
+   | &#9733 69, pushed 49 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/TomasVotruba/awesome-doctrine">
+   Doctrine
+  </a>
+  <span>
+   | &#9733 86, pushed 7 days ago |
+  </span>
+  <em>
+   (PHP ORM)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/ramnes/awesome-mongodb">
+   MongoDB
+  </a>
+  <span>
+   | &#9733 167, pushed 18 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Media
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/shime/creative-commons-media">
+   Creative Commons Media
+  </a>
+  <span>
+   | &#9733 106, pushed 87 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/brabadu/awesome-fonts">
+   Fonts
+  </a>
+  <span>
+   | &#9733 110, pushed 32 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/chrissimpkins/codeface">
+   Codeface
+  </a>
+  <span>
+   | &#9733 3086, pushed 13 days ago |
+  </span>
+  <em>
+   (Text editor fonts)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/neutraltone/awesome-stock-resources">
+   Stock Resources
+  </a>
+  <span>
+   | &#9733 5158, pushed 8 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ibaaj/awesome-gif">
+   GIF
+  </a>
+  <span>
+   | &#9733 86, pushed 68 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ciconia/awesome-music">
+   Music
+  </a>
+  <span>
+   | &#9733 82, pushed 23 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/nacyot/awesome-opensource-documents">
+   Open Source Documents
+  </a>
+ </li>
+</ul>
+<h2>
+ Learn
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/therebelrobot/awesome-workshopper">
+   CLI Workshoppers/Adventures
+  </a>
+  <span>
+   | &#9733 126, pushed 73 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/karlhorky/learn-to-program">
+   Learn to Program
+  </a>
+  <span>
+   | &#9733 168, pushed 60 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/matteofigus/awesome-speaking">
+   Speaking
+  </a>
+  <span>
+   | &#9733 354, pushed 97 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/lucasviola/awesome-tech-videos">
+   Tech Videos
+  </a>
+  <span>
+   | &#9733 115, pushed 100 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/hangtwenty/dive-into-machine-learning">
+   Dive into Machine Learning
+  </a>
+  <span>
+   | &#9733 5094, pushed 6 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/watson/awesome-computer-history">
+   Computer History
+  </a>
+  <span>
+   | &#9733 576, pushed 6 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Security
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/paragonie/awesome-appsec">
+   Application Security
+  </a>
+  <span>
+   | &#9733 1645, pushed 8 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sbilly/awesome-security">
+   Security
+  </a>
+  <span>
+   | &#9733 507, pushed 34 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/apsdehal/awesome-ctf">
+   CTF
+  </a>
+  <span>
+   | &#9733 412, pushed 19 days ago |
+  </span>
+  <em>
+   (Capture the Flag)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/rshipp/awesome-malware-analysis">
+   Malware Analysis
+  </a>
+  <span>
+   | &#9733 936, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ashishb/android-security-awesome">
+   Android Security
+  </a>
+  <span>
+   | &#9733 990, pushed 8 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/carpedm20/awesome-hacking">
+   Hacking
+  </a>
+  <span>
+   | &#9733 490, pushed 35 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/paralax/awesome-honeypots">
+   Honeypots
+  </a>
+  <span>
+   | &#9733 589, pushed 32 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/meirwah/awesome-incident-response">
+   Incident Response
+  </a>
+  <span>
+   | &#9733 461, pushed 27 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Content Management System
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/leekelleher/awesome-umbraco">
+   Umbraco
+  </a>
+  <span>
+   | &#9733 51, pushed 52 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/refinerycms-contrib/awesome-refinerycms">
+   Refinery CMS
+  </a>
+  <span>
+   | &#9733 10, pushed 11 days ago |
+  </span>
+ </li>
+</ul>
+<h2>
+ Miscellaneous
+</h2>
+<ul>
+ <li>
+  <a href="https://github.com/burningtree/awesome-json">
+   JSON
+  </a>
+  <span>
+   | &#9733 299, pushed 10 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/najela/discount-for-student-dev">
+   Discounts for Student Developers
+  </a>
+ </li>
+ <li>
+  <a href="https://github.com/matiassingers/awesome-slack">
+   Slack
+  </a>
+  <span>
+   | &#9733 212, pushed 89 days ago |
+  </span>
+  <ul>
+   <li>
+    <a href="https://github.com/filipelinhares/awesome-slack">
+     Communities
+    </a>
+    <span>
+     | &#9733 133, pushed 33 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/RichardLitt/awesome-conferences">
+   Conferences
+  </a>
+  <span>
+   | &#9733 400, pushed 19 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/tmcw/awesome-geojson">
+   GeoJSON
+  </a>
+  <span>
+   | &#9733 265, pushed 51 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/n1trux/awesome-sysadmin">
+   Sysadmin
+  </a>
+  <span>
+   | &#9733 3446, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/kyleterry/awesome-radio">
+   Radio
+  </a>
+  <span>
+   | &#9733 73, pushed 255 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sindresorhus/awesome">
+   Awesome
+  </a>
+  <span>
+   | &#9733 33916, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/onurakpolat/awesome-analytics">
+   Analytics
+  </a>
+  <span>
+   | &#9733 322, pushed 22 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/opencompany/awesome-open-company">
+   Open Companies
+  </a>
+  <span>
+   | &#9733 90, pushed 104 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/marmelab/awesome-rest">
+   REST
+  </a>
+  <span>
+   | &#9733 612, pushed 52 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/christian-bromann/awesome-selenium">
+   Selenium
+  </a>
+  <span>
+   | &#9733 97, pushed 13 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/RichardLitt/endangered-languages">
+   Endangered Languages
+  </a>
+  <span>
+   | &#9733 78, pushed 23 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ciandcd/awesome-ciandcd">
+   Continuous Delivery
+  </a>
+  <span>
+   | &#9733 155, pushed 25 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/mmcgrana/services-engineering">
+   Services Engineering
+  </a>
+  <span>
+   | &#9733 2050, pushed 255 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/ripienaar/free-for-dev">
+   Free for Developers
+  </a>
+  <span>
+   | &#9733 13016, pushed 2 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/igorbarinov/awesome-bitcoin/">
+   Bitcoin
+  </a>
+ </li>
+ <li>
+  <a href="https://github.com/jugoncalves/awesome-answers">
+   Answers
+  </a>
+  <em>
+   (Stack Overflow, Quora, etc)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/diessica/awesome-sketch">
+   Sketch
+  </a>
+  <span>
+   | &#9733 404, pushed 157 days ago |
+  </span>
+  <em>
+   (OS X app)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/mmccaff/PlacesToPostYourStartup">
+   Places to Post Your Startup
+  </a>
+  <span>
+   | &#9733 847, pushed 84 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/caesar0301/awesome-pcaptools">
+   PCAPTools
+  </a>
+  <span>
+   | &#9733 365, pushed 3 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/lukasz-madon/awesome-remote-job">
+   Remote Jobs
+  </a>
+  <span>
+   | &#9733 5348, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/melvin0008/awesome-projects-boilerplates">
+   Boilerplate Projects
+  </a>
+  <span>
+   | &#9733 193, pushed 55 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/matiassingers/awesome-readme">
+   Readme
+  </a>
+  <span>
+   | &#9733 344, pushed 26 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/cjbarber/ToolsOfTheTrade">
+   Tools
+  </a>
+  <span>
+   | &#9733 6259, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/RichardLitt/awesome-styleguides">
+   Styleguides
+  </a>
+  <span>
+   | &#9733 284, pushed 6 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/NARKOZ/guides">
+   Design and Development Guides
+  </a>
+  <span>
+   | &#9733 1088, pushed 21 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/kilimchoi/engineering-blogs">
+   Software Engineering Blogs
+  </a>
+  <span>
+   | &#9733 7723, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/Kickball/awesome-selfhosted">
+   Self Hosted
+  </a>
+  <span>
+   | &#9733 6676, pushed 2 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/jwaterfaucett/awesome-foss-apps">
+   FOSS Production Apps
+  </a>
+  <span>
+   | &#9733 82, pushed 142 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/alferov/awesome-gulp">
+   Gulp
+  </a>
+  <span>
+   | &#9733 134, pushed 29 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sindresorhus/amas">
+   AMA
+  </a>
+  <span>
+   | &#9733 513, pushed 2 days ago |
+  </span>
+  <em>
+   (Ask Me Anything)
+  </em>
+  <ul>
+   <li>
+    <a href="https://github.com/stoeffel/awesome-ama-answers">
+     Answers
+    </a>
+    <span>
+     | &#9733 85, pushed 209 days ago |
+    </span>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <a href="https://github.com/ibaaj/awesome-OpenSourcePhotography/">
+   Open Source Photography
+  </a>
+ </li>
+ <li>
+  <a href="https://github.com/eug/awesome-opengl">
+   OpenGL
+  </a>
+  <span>
+   | &#9733 264, pushed 8 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/jyguyomarch/awesome-productivity">
+   Productivity
+  </a>
+  <span>
+   | &#9733 66, pushed 97 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/chentsulin/awesome-graphql">
+   GraphQL
+  </a>
+  <span>
+   | &#9733 1113, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/luqmaan/awesome-transit">
+   Transit
+  </a>
+  <span>
+   | &#9733 87, pushed 7 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/emptymalei/awesome-research">
+   Research Tools
+  </a>
+  <span>
+   | &#9733 92, pushed 17 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/wfhio/awesome-job-boards">
+   Niche Job Boards
+  </a>
+  <span>
+   | &#9733 29, pushed 19 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/fasouto/awesome-dataviz">
+   Data Visualization
+  </a>
+  <span>
+   | &#9733 421, pushed 28 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/vinkla/share-links">
+   Social Media Share Links
+  </a>
+ </li>
+ <li>
+  <a href="https://github.com/jdorfman/awesome-json-datasets">
+   JSON Datasets
+  </a>
+  <span>
+   | &#9733 83, pushed 126 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/mfornos/awesome-microservices">
+   Microservices
+  </a>
+  <span>
+   | &#9733 830, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/Codepoints/awesome-codepoints">
+   Unicode Code Points
+  </a>
+  <span>
+   | &#9733 80, pushed 62 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/HQarroum/awesome-iot">
+   Internet of Things
+  </a>
+  <span>
+   | &#9733 205, pushed 58 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/MunGell/awesome-for-beginners">
+   Beginner-Friendly Projects
+  </a>
+  <span>
+   | &#9733 294, pushed 10 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/beaconinside/awesome-beacon">
+   Bluetooth Beacons
+  </a>
+  <span>
+   | &#9733 128, pushed 41 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/MaximAbramchuck/awesome-interviews">
+   Programming Interviews
+  </a>
+  <span>
+   | &#9733 9026, pushed 23 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/vhpoet/awesome-ripple">
+   Ripple
+  </a>
+  <span>
+   | &#9733 32, pushed 87 days ago |
+  </span>
+  <em>
+   (Open-source distributed settlement network)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/gmontalvoriv/awesome-katas">
+   Katas
+  </a>
+  <span>
+   | &#9733 26, pushed 59 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/drewrwilson/toolsforactivism">
+   Tools for Activism
+  </a>
+  <span>
+   | &#9733 139, pushed 69 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/sindresorhus/awesome-tap">
+   TAP
+  </a>
+  <span>
+   | &#9733 194, pushed 31 days ago |
+  </span>
+  <em>
+   (Test Anything Protocol)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/Kiloreux/awesome-robotics">
+   Robotics
+  </a>
+  <span>
+   | &#9733 160, pushed 13 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/hobbyquaker/awesome-mqtt">
+   MQTT
+  </a>
+  <span>
+   | &#9733 36, pushed 15 days ago |
+  </span>
+  <em>
+   (an "Internet of Things" connectivity protocol)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/diasdavid/awesome-hacking-spots">
+   Hacking Spots
+  </a>
+  <span>
+   | &#9733 242, pushed 1 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/cristianoliveira/awesome4girls">
+   For Girls
+  </a>
+  <span>
+   | &#9733 93, pushed 34 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/vorpaljs/awesome-vorpal">
+   Vorpal
+  </a>
+  <span>
+   | &#9733 54, pushed 10 days ago |
+  </span>
+  <em>
+   (Node.js CLI framework)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/domenicosolazzo/awesome-okr">
+   OKR Methodology
+  </a>
+  <span>
+   | &#9733 29, pushed 73 days ago |
+  </span>
+  <em>
+   (Goal setting & communication best practices)
+  </em>
+ </li>
+ <li>
+  <a href="https://github.com/vinjn/awesome-vulkan">
+   Vulkan
+  </a>
+  <span>
+   | &#9733 180, pushed 0 days ago |
+  </span>
+ </li>
+ <li>
+  <a href="https://github.com/egeerardyn/awesome-LaTeX">
+   LaTeX
+  </a>
+  <span>
+   | &#9733 17, pushed 13 days ago |
+  </span>
+  <em>
+   (Typesetting language)
+  </em>
+ </li>
+</ul>
+<h2>
+ License
+</h2>
+<p>
+ <a href="https://creativecommons.org/publicdomain/zero/1.0/">
+  <img alt="CC0" src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg"/>
+ </a>
+</p>
+<p>
+ To the extent possible under law,
+ <a href="http://sindresorhus.com">
+  Sindre Sorhus
+ </a>
+ has waived all copyright and related or neighboring rights to this work.
+</p>
